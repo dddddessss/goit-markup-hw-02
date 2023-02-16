@@ -1,0 +1,57 @@
+body {
+  background-color: #fff;
+  color: (rgba 46, 47, 66, 1);
+}
+
+/* hero h1 color background: rgba(255, 255, 255, 1); */
+
+/* p color background: rgba(67, 68, 85, 1); */
+
+/* h2 h3 color background: rgba(46, 47, 66, 1); */
+
+/* footer text rgba(231, 233, 252, 1); */
+
+/* accent background: rgba(77, 90, 229, 1); */
+
+/* hero footer background: rgba(46, 47, 66, 1); */
+
+/* section 3 background background: rgba(244, 244, 253, 1);  */
+
+.list {
+    list-style: none;
+}
+
+.unline {
+    text-decoration: none;    
+}
+.unline:hover, .unline:focus {
+    color: tomato;
+}
+
+.hero-header {
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+.header {
+    color: rgba(67, 68, 85, 1);
+}
+
+.section{
+    background-color:rgba(244, 244, 253, 1) ;
+}
+
+.hero-foot-back{
+    background-color:rgba(46, 47, 66, 1) ;
+}
+
+
+
+.textcolor {
+    color:rgba(67, 68, 85, 1) ;
+
+}
+
+.site-nav {color: rgba(46, 47, 66, 1);}
+.contacts {color: rgba(67, 68, 85, 1);}
+
