@@ -1,6 +1,5 @@
 body {
-  background-color: #fff;
-  color: (rgba 46, 47, 66, 1);
+  background-color: #ffffff;
 }
 
 /* hero h1 color background: rgba(255, 255, 255, 1); */
@@ -18,40 +17,40 @@ body {
 /* section 3 background background: rgba(244, 244, 253, 1);  */
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .unline {
-    text-decoration: none;    
-}
-.unline:hover, .unline:focus {
-    color: tomato;
+  text-decoration: none;
 }
 
-.hero-header {
-    color: rgba(255, 255, 255, 1);
-    ;
+.unline:hover,
+.unline:focus {
+  color: tomato;
 }
 
-.header {
-    color: rgba(67, 68, 85, 1);
+.page-header {
+  background-color: #ffffff;
+}
+.back-hero-foooter {
+  background-color: rgba(46, 47, 66, 1);
 }
 
-.section{
+.section-hero {
+  color: rgba(244, 244, 253, 1);
+}
+
+.navy {
+  color: rgba(46, 47, 66, 1);
+}
+
+.hero-foot-back {
+  background-color: rgba(46, 47, 66, 1);
+}.section-team {
     background-color:rgba(244, 244, 253, 1) ;
+
 }
-
-.hero-foot-back{
-    background-color:rgba(46, 47, 66, 1) ;
-}
-
-
-
 .textcolor {
-    color:rgba(67, 68, 85, 1) ;
-
+  color: rgba(67, 68, 85, 1);
+  
 }
-
-.site-nav {color: rgba(46, 47, 66, 1);}
-.contacts {color: rgba(67, 68, 85, 1);}
-
