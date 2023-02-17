@@ -46,11 +46,32 @@ body {
 
 .hero-foot-back {
   background-color: rgba(46, 47, 66, 1);
-}.section-team {
-    background-color:rgba(244, 244, 253, 1) ;
-
+}
+.section-team {
+  background-color: rgba(244, 244, 253, 1);
 }
 .textcolor {
   color: rgba(67, 68, 85, 1);
-  
+}
+
+/* .site-nav .unline.current {
+color: deeppink;
+}  */
+
+.button {
+background-color: rgba(77, 90, 229, 1);
+color: rgba(255, 255, 255, 1);
+}
+
+
+.button.primary{
+    background-color: rgba(64, 75, 191, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.button.secondary{
+    background-color: rgba(244, 244, 253, 1);
+    color: rgba(77, 90, 229, 1);
+    
+    ;
 }
