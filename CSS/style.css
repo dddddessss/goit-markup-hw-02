@@ -1,3 +1,10 @@
+:root {
+  --primary-color:rgba(46, 47, 66, 1);
+  --text-color:rgba(67, 68, 85, 1);
+  --accent-color:rgba(77, 90, 229, 1);
+
+}
+
 body {
   background-color: #ffffff;
 }
@@ -16,6 +23,7 @@ body {
 
 /* section 3 background background: rgba(244, 244, 253, 1);  */
 
+/* ________________---------BASE--------______________ */
 .list {
   list-style: none;
 }
@@ -29,9 +37,17 @@ body {
   color: tomato;
 }
 
-.page-header {
-  background-color: #ffffff;
+.navy {
+  color: var(--primary-color)
 }
+
+.textcolor {
+  color: var(--text-color);
+}
+
+/* ________________---------BASE--------______________ */
+
+
 .back-hero-foooter {
   background-color: rgba(46, 47, 66, 1);
 }
@@ -40,38 +56,36 @@ body {
   color: rgba(244, 244, 253, 1);
 }
 
-.navy {
-  color: rgba(46, 47, 66, 1);
-}
-
 .hero-foot-back {
   background-color: rgba(46, 47, 66, 1);
 }
 .section-team {
   background-color: rgba(244, 244, 253, 1);
 }
-.textcolor {
-  color: rgba(67, 68, 85, 1);
-}
 
 /* .site-nav .unline.current {
 color: deeppink;
 }  */
 
+/* ________________---------BUTTONS--------______________ */
+
 .button {
-background-color: rgba(77, 90, 229, 1);
-color: rgba(255, 255, 255, 1);
+  background-color: var(--accent-color);
+  color: rgba(255, 255, 255, 1);
+  cursor:pointer;
 }
 
 
-.button.primary{
-    background-color: rgba(64, 75, 191, 1);
-    color: rgba(255, 255, 255, 1);
+.button.secondary {
+  background-color: rgba(244, 244, 253, 1);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+  color: rgba(255, 255, 255, 1);
 }
 
-.button.secondary{
-    background-color: rgba(244, 244, 253, 1);
-    color: rgba(77, 90, 229, 1);
-    
-    ;
-}
+
+/* ________________---------BUTTONS--------______________ */
