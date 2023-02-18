@@ -1,27 +1,24 @@
 :root {
-  --primary-color:rgba(46, 47, 66, 1);
-  --text-color:rgba(67, 68, 85, 1);
-  --accent-color:rgba(77, 90, 229, 1);
-
+  --primary-color: rgba(46, 47, 66, 1);
+  --text-color: rgba(67, 68, 85, 1);
+  --accent-color: rgba(77, 90, 229, 1);
+  --our-team-color: rgba(244, 244, 253, 1);
+  --footer-logo-color: rgba(244, 244, 253, 1);
+  --footer-text-color: rgba(231, 233, 252, 1);
+  --button-unactive: rgba(244, 244, 253, 1);
+  --button-active: rgba(64, 75, 191, 1);
+  --button-active-text: rgba(255, 255, 255, 1);
+  --h1-coolor: rgba(244, 244, 253, 1);
+  --tomato: tomato;
 }
 
 body {
   background-color: #ffffff;
+  color: var(--primary-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
-
-/* hero h1 color background: rgba(255, 255, 255, 1); */
-
-/* p color background: rgba(67, 68, 85, 1); */
-
-/* h2 h3 color background: rgba(46, 47, 66, 1); */
-
-/* footer text rgba(231, 233, 252, 1); */
-
-/* accent background: rgba(77, 90, 229, 1); */
-
-/* hero footer background: rgba(46, 47, 66, 1); */
-
-/* section 3 background background: rgba(244, 244, 253, 1);  */
 
 /* ________________---------BASE--------______________ */
 .list {
@@ -34,58 +31,144 @@ body {
 
 .unline:hover,
 .unline:focus {
-  color: tomato;
+  color: var(--tomato);
 }
 
 .navy {
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .textcolor {
   color: var(--text-color);
 }
 
+.hiddenvisaily {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ________________---------BASE--------______________ */
 
+/* ________________---------MAIN--------______________ */
 
 .back-hero-foooter {
-  background-color: rgba(46, 47, 66, 1);
+  background-color: var(--primary-color);
 }
 
 .section-hero {
-  color: rgba(244, 244, 253, 1);
+  color: var(--h1-coolor);
 }
 
-.hero-foot-back {
-  background-color: rgba(46, 47, 66, 1);
-}
 .section-team {
-  background-color: rgba(244, 244, 253, 1);
+  background-color: var(--our-team-color);
 }
 
 /* .site-nav .unline.current {
 color: deeppink;
 }  */
 
+/* ________________---------MAIN--------______________ */
+
 /* ________________---------BUTTONS--------______________ */
 
 .button {
   background-color: var(--accent-color);
-  color: rgba(255, 255, 255, 1);
-  cursor:pointer;
+  color: var(--button-active-text);
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-
 .button.secondary {
-  background-color: rgba(244, 244, 253, 1);
+  background-color: var(--button-unactive);
   color: var(--accent-color);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button.secondary:hover,
 .button.secondary:focus {
-  background-color: var(--accent-color);
-  color: rgba(255, 255, 255, 1);
+  background-color: var(--button-active);
+  color: var(--button-active-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.5;
+  letter-spacing: 0.04em;
 }
 
+/* ________________---------FONTS--------______________ */
 
-/* ________________---------BUTTONS--------______________ */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.site-nav-listed {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contacts {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.header-feat {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.text-feat {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.header-wawd {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+.header-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+.header-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.text-team {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5px;
+}
+/* ________________---------FONTS--------______________ */
