@@ -9,15 +9,16 @@
   --button-active: rgba(64, 75, 191, 1);
   --button-active-text: rgba(255, 255, 255, 1);
   --h1-coolor: rgba(244, 244, 253, 1);
-  --tomato: tomato;
+  --body-back: #ffffff;
+
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--body-back);
   color: var(--primary-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
-  font-weight: 400;
+  font-size: 16px;
+ 
 }
 
 /* ________________---------BASE--------______________ */
@@ -31,7 +32,7 @@ body {
 
 .unline:hover,
 .unline:focus {
-  color: var(--tomato);
+  color: var(--primary-color);
 }
 
 .navy {
@@ -71,6 +72,9 @@ body {
 .section-team {
   background-color: var(--our-team-color);
 }
+.footer-text {
+  color: var(--footer-text-color);
+}
 
 /* .site-nav .unline.current {
 color: deeppink;
@@ -80,11 +84,11 @@ color: deeppink;
 
 /* ________________---------BUTTONS--------______________ */
 
-.button {
+.button-hero {
   background-color: var(--accent-color);
   color: var(--button-active-text);
   cursor: pointer;
-
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -94,6 +98,7 @@ color: deeppink;
   background-color: var(--button-unactive);
   color: var(--accent-color);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -103,15 +108,13 @@ color: deeppink;
 .button.secondary:focus {
   background-color: var(--button-active);
   color: var(--button-active-text);
-  font-weight: 500;
-  font-size: 16px;
-  line-height:1.5;
-  letter-spacing: 0.04em;
+ 
 }
 
 /* ________________---------FONTS--------______________ */
 
 .logo {
+  color: var(--primary-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -119,15 +122,19 @@ color: deeppink;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--footer-logo-color);
 
+}
 .site-nav-listed {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
 }
 .contacts {
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -164,11 +171,10 @@ color: deeppink;
   line-height: 1.2;
 }
 .text-team {
-  font-size: 16px;
   line-height: 1.5;
 }
 
 .footer-text {
-  font-size: 16px;
+
   line-height: 1.5;}
 /* ________________---------FONTS--------______________ */
